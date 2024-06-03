@@ -1,0 +1,7 @@
+services:
+  php-build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./php-src:/work
